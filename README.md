@@ -1,5 +1,7 @@
 # Coronavirus (Covid-19) Prevalence by US County
 
+[View Notebook](https://github.com/OptumCS/coronav2/blob/master/coronav2.ipynb)
+
 The New York Times released a data file with cumulative counts of coronavirus cases in the United States county level, over time.
 
 This Jupyter Notebook combines that daily data with county level 2019 population estimates from the US Census Bureau and calculates the prevalence for each county.
