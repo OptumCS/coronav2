@@ -6,7 +6,9 @@ This Jupyter Notebook combines that daily data with county level 2019 population
 
 The New York Times Data (and licensing) can be found here: [https://github.com/nytimes/covid-19-data](https://github.com/nytimes/covid-19-data)
 
-Population used is included in this repository as `co-est2019-alldata_sd.csv`
+The coronavirus data is automatically fetched into the directly by URL (i.e., no need to download the daily data by hand).
+
+Population used is included in this repository as [`co-est2019-alldata_sd.csv`](https://github.com/OptumCS/coronav2/blob/master/co-est2019-alldata_sd.csv)
 
 ### Output Data Format
 The data output format is as follows:
@@ -34,7 +36,6 @@ Prevalence is calculated by:
 ```
 (cases/pop2019) * 100
 ```
-Sample data output is in this repository as `cv_pop_county.csv`
+Sample data output is in this repository as [`cv_pop_county.csv`](https://github.com/OptumCS/coronav2/blob/master/cv_pop_county.csv)
 
 Additional data clean-up and processing is noted with comments in the notebook.
-
