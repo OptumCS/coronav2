@@ -6,7 +6,7 @@ This Jupyter Notebook combines that daily data with county level 2019 population
 
 The New York Times Data (and licensing) can be found here: [https://github.com/nytimes/covid-19-data](https://github.com/nytimes/covid-19-data)
 
-The coronavirus data is automatically fetched into the directly by URL (i.e., no need to download the daily data by hand).
+The coronavirus data is automatically fetched directly by URL (i.e., no need to download the daily data by hand).
 
 Population used is included in this repository as [`co-est2019-alldata_sd.csv`](https://github.com/OptumCS/coronav2/blob/master/co-est2019-alldata_sd.csv)
 
